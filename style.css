@@ -201,5 +201,3 @@ a:visited {
 a:hover {
     color:#84a98c;
 }
-
-a[href^=tel]{ color:#fff; text-decoration:none;}

@@ -108,10 +108,17 @@ body {
 }
 
 .portfolio-piece {
-    flex: 0 0 calc(30%);
+    width: 45%;
+    /* flex: 0 0 calc(30%); */
     margin-top: 2rem;
     margin-left: 1rem;
     margin-right: 1rem;
+}
+
+@media (max-width: 500px) {
+    .portfolio-piece {
+        width: 80%;
+    }
 }
 
 .site-container {
